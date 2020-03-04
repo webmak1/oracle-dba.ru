@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Backup и Restore Oracle DataBase с помощью RMAN
+description: Создание и восстановление бекапов Oracle с помощью RMAN
+keywords: oracle, backup, restore, rman
 permalink: /database/backup-and-restore/rman/
 ---
 
@@ -25,13 +27,9 @@ permalink: /database/backup-and-restore/rman/
     </li>
 </ul>
 
-
-
 <br/>
 
 ### Создание резервных копий с помощью утилиты Recovery Manager (RMAN)
-
-
 
 <ul>
     <li>
@@ -53,7 +51,7 @@ permalink: /database/backup-and-restore/rman/
 
 <br/>
 
-###  Проверки с помощью RMAN (Recovery Manager)
+### Проверки с помощью RMAN (Recovery Manager)
 
 <ul>
     <li>
@@ -71,7 +69,6 @@ permalink: /database/backup-and-restore/rman/
     </li>
 </ul>
 
-
 <br/>
 
 ### Удаление объектов RMAN (Recovery Manager)
@@ -81,7 +78,6 @@ permalink: /database/backup-and-restore/rman/
         <a href="/database/backup-and-restore/rman/oracle-rman-delete/">Удаление объектов RMAN (Recovery Manager)</a>
     </li>
 </ul>
-
 
 <br/>
 
@@ -93,10 +89,9 @@ permalink: /database/backup-and-restore/rman/
     </li>
 </ul>
 
-
 <br/>
 
-### RMAN Catalog (так я и не понял зачем он нужен)
+### RMAN Catalog (так я и не нашел ему практического применения)
 
 <ul>
     <li>
@@ -106,8 +101,6 @@ permalink: /database/backup-and-restore/rman/
         <a href="/database/backup-and-restore/rman/change-db-unique-name-in-catalog/">Поменять db_unique_name в RMAN каталоге</a>
     </li>
 </ul>
-
-
 
 <br/>
 
@@ -120,7 +113,5 @@ permalink: /database/backup-and-restore/rman/
     <li>
         <a href="/database/backup-and-restore/rman/duplicate-active-database/">Создание копии активной базы данных с помощью RMAN</a>
     </li>
-
-
 
 </ul>
