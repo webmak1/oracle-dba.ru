@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Oracle RAC 12.1 ISCSI + ASM - Инсталляция ASMLIB на узлах кластера
+title: Инсталляция Oracle RAC 12.1 в Oracle Linux 6.7 (ISCSI + ASM) - Инсталляция ASMLIB на узлах кластера
+description: Инсталляция Oracle RAC 12.1 в Oracle Linux 6.7 (ISCSI + ASM) - Инсталляция ASMLIB на узлах кластера
+keywords: Oracle DataBase 12.1, Oracle Linux 6.7, RAC, (ISCSI + ASM), ASMLIB
 permalink: /database/installation/distributed/rac/linux/6.7/oracle/12.1/iscsi-asm/asmlib-installation/
 ---
 
-# [Инсталляция Oracle RAC 12.1 ISCSI + ASM]: Инсталляция ASMLIB на узлах кластера
-
+# [Инсталляция Oracle RAC 12.1 в Oracle Linux 6.7 (ISCSI + ASM)]: Инсталляция ASMLIB на узлах кластера
 
 <table cellpadding="4" cellspacing="2" align="center" border="0" width="100%">
 
@@ -16,15 +17,13 @@ permalink: /database/installation/distributed/rac/linux/6.7/oracle/12.1/iscsi-as
 
 </table>
 
-
 В Oracle Linux 6 oracleasm kernel driver встроены в ядро UEK и как следствиет не требует инсталляции.
 
 Необходимо с сайта Oracle:
 
 http://www.oracle.com/technetwork/server-storage/linux/asmlib/rhel6-1940776.html
 
-Скачать: oracleasmlib-*.x86_64.rpm
-
+Скачать: oracleasmlib-\*.x86_64.rpm
 
     # cd /tmp
     # wget http://download.oracle.com/otn_software/asmlib/oracleasmlib-2.0.4-1.el6.x86_64.rpm
@@ -43,8 +42,6 @@ http://www.oracle.com/technetwork/server-storage/linux/asmlib/rhel6-1940776.html
     # rpm -qa | grep oracleasm
     oracleasm-support-2.1.8-1.el6.x86_64
     oracleasmlib-2.0.4-1.el6.x86_64
-
-
 
 Если используется Centos, RedHat а не OEL, нужно еще установить:.
 
