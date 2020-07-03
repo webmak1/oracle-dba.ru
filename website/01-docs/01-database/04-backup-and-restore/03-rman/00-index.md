@@ -39,10 +39,10 @@ permalink: /database/backup-and-restore/rman/
         <a href="/database/backup-and-restore/rman/oracle-rman-backup-noarchivelog/">Создание резервных копий с помощью утилиты RMAN (NOARCHIVELOG)</a>
     </li>
     <li>
-        <a href="/database/backup-and-restore/rman/oracle_rman_scripts_example/example1/">Скрипт RMAN для создания бекапов. Пример 1. Бекап в FRA (ARCHIVELOG)</a>
+        <a href="/database/backup-and-restore/rman/oracle_rman_scripts_example/backup-to-fra/">Скрипт RMAN для создания бекапов. Пример 1. Бекап в FRA (ARCHIVELOG)</a>
     </li>
     <li>
-        <a href="/database/backup-and-restore/rman/oracle_rman_scripts_example/example2/">Скрипт RMAN для создания бекапов. Пример 2. Бекап в каталог (ARCHIVELOG)</a>
+        <a href="/database/backup-and-restore/rman/oracle_rman_scripts_example/backup-to-folder/">Скрипт RMAN для создания бекапов. Пример 2. Бекап в каталог (ARCHIVELOG)</a>
     </li>
     <li>
         <a href="/database/backup-and-restore/rman/incremental-backup/">Создание инкрементальной копии базы данных с помощью RMAN</a>
@@ -108,10 +108,9 @@ permalink: /database/backup-and-restore/rman/
 
 <ul>
     <li>
-        <a href="/database/backup-and-restore/rman/duplicate-database/">Создание копии базы данных из бекапа с помощью RMAN на том же сервере</a>
+        <a href="/database/backup-and-restore/rman/duplicate-instance/duplicate-database-from-backup/">Создание копии базы данных из бекапа с помощью RMAN на том же сервере</a>
     </li>
     <li>
-        <a href="/database/backup-and-restore/rman/duplicate-active-database/">Создание копии активной базы данных с помощью RMAN</a>
+        <a href="/database/backup-and-restore/rman/duplicate-instance/duplicate-active-database/">Создание копии активной базы данных с помощью RMAN</a>
     </li>
-
 </ul>
